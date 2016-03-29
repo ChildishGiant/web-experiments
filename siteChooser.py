@@ -1,6 +1,9 @@
 import random
 s=["A","B"]
-f = "Once T go to these sites: "
+f = []
 for i in range(0,15):
-    f+=random.choice(s)+" "
+    f+=random.choice(s)
 print(f)
+for ss in f:
+    print(ss)
+    input(":")
